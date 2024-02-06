@@ -1,0 +1,10 @@
+.flight{
+  background-image: url("./flight.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.ui.vertical.segment{
+    background: linear-gradient(45deg, black, transparent);
+}

@@ -1,0 +1,27 @@
+.home {
+  background-image: url("./images/backgroundImage.png");
+}
+
+.body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+
+.content .fields .field input {
+  padding: 20px;
+}
+
+.search-btn {
+  margin-bottom: -22px;
+}
+
+.search-btn button {
+  width: 180px;
+  border-radius: 42px !important;
+}
