@@ -77,7 +77,7 @@ function AddFlight() {
     
   };
 
-    axios.post("http://localhost:8100/flight/add/", payload).then((resp) => {
+    axios.post("http://localhost:8281/flight/add/", payload).then((resp) => {
       alert("Flight is added Successfully");
       console.log(resp.data);
       navigate("/flights")

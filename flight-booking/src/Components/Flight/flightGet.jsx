@@ -9,7 +9,7 @@ function FlightGet() {
   const [flight, setFlight] = useState({});
 
   useEffect(() => {
-    axios.get("http://localhost:8100/flight/get/" + id).then((response) => {
+    axios.get("http://localhost:8281/flight/get/" + id).then((response) => {
       setFlight(response.data);
     });
   }, [id]);

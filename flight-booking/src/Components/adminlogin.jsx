@@ -39,7 +39,7 @@ function Adminlogin() {
           localStorage.setItem("admintoken", JSON.stringify(response.data));
 
           axios
-            .get("http://localhost:8500/user/admin/login/" + username + "/" + password, {
+            .post("http://localhost:8500/admin/login/",payload, {
               headers: {
                 Authorization: "Bearer " + response.data,
               },

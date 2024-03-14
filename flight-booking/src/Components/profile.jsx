@@ -42,6 +42,7 @@ function Profile() {
     if (userDetails !== null) {
       localStorage.clear();
       navigate("/home");
+      alert("Logged Out Successfully");
     }
   };
   const submit = () => {

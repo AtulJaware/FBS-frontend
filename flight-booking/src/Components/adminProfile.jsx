@@ -24,6 +24,7 @@ function AdminProfile() {
     if (userDetails !== null) {
       localStorage.clear();
       navigate("/home");
+      alert("Logged Out Successfully");
     }
   };
 

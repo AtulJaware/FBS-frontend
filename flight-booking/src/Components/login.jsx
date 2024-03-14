@@ -69,7 +69,7 @@ function Login() {
         </div>
         <div class="field">
           <label>Password</label>
-          <input placeholder="Password" type="text" value={password} onChange={(event) => setPassword(event.target.value)} />
+          <input placeholder="Password" type="password" value={password} onChange={(event) => setPassword(event.target.value)} />
           {errors.passwordError && <div className="ui red mini message">{errors.passwordError}</div>}
         </div>
         <div>

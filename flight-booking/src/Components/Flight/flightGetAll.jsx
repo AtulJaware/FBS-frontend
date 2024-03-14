@@ -10,7 +10,7 @@ function FlightGetAll() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get("http://localhost:8100/flight/getAll").then((response) => {
+    axios.get("http://localhost:8281/flight/getAll").then((response) => {
       setList(response.data);
     });
   });

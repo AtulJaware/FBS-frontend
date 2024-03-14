@@ -20,7 +20,7 @@ function Payment() {
   console.log(arr);
 
   useEffect(() => {
-    axios.get("http://localhost:8100/flight/get/" + fid).then((response) => {
+    axios.get("http://localhost:8281/flight/get/" + fid).then((response) => {
       setFlight(response.data);
     });
   }, [fid]);
